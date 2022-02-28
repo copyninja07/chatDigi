@@ -7,7 +7,7 @@ import Message from "../Message/Message.js";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 import closeIcon from "../../images/closeIcon.png";
 
-const ENDPOINT = "http://localhost:4500/";
+const ENDPOINT = "http://64.227.140.118:4500/";
 
 const Chat = () => {
   const [id, setId] = useState("");
